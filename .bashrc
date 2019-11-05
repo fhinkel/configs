@@ -23,8 +23,8 @@ export PS1='\[\e[35m\]\w$(__git_ps1 " (%s)")\$\[\e[0m\] '
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 # negative values for no limit
-HISTSIZE=-1
-HISTFILESIZE=-1
+#HISTSIZE=-1
+#HISTFILESIZE=-1
 
 ## bash history
 # http://briancarper.net/blog/248.html
