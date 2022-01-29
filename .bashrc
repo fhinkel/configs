@@ -1,13 +1,6 @@
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-alias gm='tools/dev/gm.py'
-
-
-export PATH=$HOME/depot_tools:"$PATH"
-
-export GYP_GENERATORS=ninja
-
 export NVM_DIR=$HOME/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
@@ -18,8 +11,6 @@ export NVM_DIR=$HOME/.nvm
 . ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1='\[\e[35m\]\w$(__git_ps1 " (%s)")\$\[\e[0m\] '
-
-
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 # negative values for no limit
